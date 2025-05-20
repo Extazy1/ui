@@ -37,10 +37,10 @@ Thumbs.db
 
 # Project specific
 predict/
-weights/
-*.pt
-*.pth
-*.onnx
+# 允许所有weights目录文件上传
+# weights/*.pt
+# weights/*.pth
+# weights/*.onnx
 
 # 明确排除以下目录
 ultralytics/
