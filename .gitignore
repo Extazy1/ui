@@ -40,4 +40,11 @@ predict/
 weights/
 *.pt
 *.pth
-*.onnx 
+*.onnx
+
+# 明确排除以下目录
+ultralytics/
+bdd/
+runs/
+test/
+bdd_predict/ 
